@@ -25,5 +25,3 @@
 1. Login válido con cada rol → redirige a su panel (CP-01).
 2. Login con contraseña incorrecta → mensaje de error (CP-02).
 3. Con sesión de empleado abrir `/suppify/admin/dashboard.php` → 403 (CP-15).
-4. En phpMyAdmin, tabla `usuarios`: `password_hash` empieza con `$2y$` (RNF002).
-5. `UPDATE usuarios SET activo = 0 WHERE cedula='102030405';` → el empleado ya no entra (CP-06).
